@@ -144,7 +144,6 @@ div.item-page {
     text-align: center;
 }
 
-div.item-page .page-header {}
 
 div.item-page .page-header h2 {
     width: 97%;
@@ -253,7 +252,6 @@ div.item-page ul.pager.pagenav li a:hover {
 
 /* ####################################################### */
 
-div.tag-category {}
 
 div.tag-category ul {
     list-style: none;
@@ -289,7 +287,6 @@ div.tag-category ul.category.list-striped li h3 a:hover {
 
 /* ####################################################### */
 
-div.blog {}
 
 div.blog h2 {
     width: 97%;
@@ -313,8 +310,6 @@ div.blog p {
     margin-left: 5px;
     margin-right: 5px;
 }
-
-div.blog div.cat-children {}
 
 div.blog div.cat-children h3 {
     width: 75%;
