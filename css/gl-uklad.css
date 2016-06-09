@@ -1,0 +1,262 @@
+body {
+    background-image: url('../images/tlo_glowne_strony.jpg');
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+/* ####################################################### */
+
+
+/* #####    -->>   OG�LNY UK�AD SZABLONU             ##### */
+
+
+/* #####    -->>   pozycje + wymiary                 ##### */
+
+
+/* ####################################################### */
+
+
+/* SEKCJA -- NAG��WEK */
+
+div#reklama {
+    width: 728px;
+    height: 90px;
+    border: thin dotted #0E0E0E;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
+div#all {
+    width: 1058px;
+    border: 2px solid #67818E;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url('../images/tlo_uniw.jpg');
+}
+
+#naglowek_strony {
+    position: relative;
+    width: 1058px;
+    height: 225px;
+    border: none;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../images/header.png');
+}
+
+div#gorna-belka {
+    width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box-gora-caly {
+    width: 1050px;
+    /* 	height: 100px; */
+    /* 	border: thin solid #00ED00; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+}
+
+#menu_gorne {
+    width: 1058px;
+    height: 31px;
+    border: thin solid silver;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    background-image: url('../images/tlo_menu_gorne.png');
+}
+
+#trzy-boxy-gora {
+    position: relative;
+    width: 1050px;
+    height: 168px;
+    max-height: 258px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    /* 	background-image: url('../images/tlo.jpg'); */
+}
+
+#box-g-1 {
+    position: relative;
+    float: left;
+    width: 346px;
+    height: 160px;
+    border: none;
+    margin-left: 2px;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+#box-g-2 {
+    position: relative;
+    float: left;
+    width: 348px;
+    height: 160px;
+    border-left: 2px solid #bedbf8;
+    border-right: 2px solid #bedbf8;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+#box-g-3 {
+    position: relative;
+    float: right;
+    width: 346px;
+    height: 160px;
+    border: none;
+    margin-left: auto;
+    margin-right: 2px;
+    margin-top: 3px;
+}
+
+#kontener {
+    position: relative;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#lewa {
+    width: 690px;
+    position: relative;
+    float: left;
+    border: thin solid silver;
+    margin-left: 0;
+    margin-top: 3px;
+    margin-right: 4px;
+    background-image: url('../images/tlo.jpg');
+}
+
+#srodek {
+    position: relative;
+    float: left;
+    width: 170px;
+    /* 	border: 1px solid aquamarine; */
+    /* 	border-radius: 10px; */
+    margin-left: 4px;
+    margin-right: 3px;
+    margin-top: 3px;
+    background-image: url('../images/tlo_uniw.jpg');
+    text-align: left;
+}
+
+#prawa {
+    position: relative;
+    float: right;
+    width: 170px;
+    /* border: 1px solid aquamarine;
+	border-radius: 10px; */
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 3px;
+    background-image: url('../images/tlo_uniw.jpg');
+    text-align: left;
+}
+
+#box-dol-caly {
+    width: 1050px;
+    min-height: 100px;
+    border: thin solid silver;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    clear: both;
+}
+
+#trzy-boxy-dol {
+    position: relative;
+    width: 1050px;
+    min-height: 258px;
+    /*border: thin solid silver;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#657B88), to(#0E3B4E));
+    background-image: -webkit-linear-gradient(top, #657B88, #0E3B4E);
+    background-image: -moz-linear-gradient(top, #657B88, #0E3B4E);
+    background-image: linear-gradient(to bottom, #657B88, #0E3B4E);
+}
+
+#box-d-1 {
+    position: relative;
+    float: left;
+    width: 346px;
+    height: 250px;
+    max-height: 300px;
+    overflow: hidden;
+    border: none;
+    margin-left: 2px;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+#box-d-2 {
+    position: relative;
+    float: left;
+    width: 348px;
+    height: 250px;
+    max-height: 300px;
+    border-left: 3px solid #67818E;
+    border-right: 3px solid #67818E;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 3px;
+    overflow: hidden;
+}
+
+#box-d-3 {
+    position: relative;
+    float: right;
+    width: 346px;
+    height: 250px;
+    max-height: 300px;
+    border: none;
+    margin-left: auto;
+    margin-right: 2px;
+    margin-top: 3px;
+    overflow: hidden;
+}
+
+#stopka {
+    position: relative;
+    width: 1050px;
+    height: 60px;
+    /*border: thin solid silver;*/
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    background-color: #0E3B4E;
+}

@@ -1,0 +1,137 @@
+
+/* ####################################################### */
+/* #####    -->>   WYGLĄD MENU BOCZNEGO  +           ##### */
+/* #####					 	 Nowości							  ##### */
+/* ####################################################### */
+
+div#trzy-boxy-gora div#box-g-1 div.moduletable,
+div#trzy-boxy-gora div#box-g-2 div.moduletable,
+div#trzy-boxy-gora div#box-g-3 div.moduletable
+{
+	margin-bottom: 5px;
+	border: none;
+}
+
+div.moduletable
+{
+	border: 1px solid aquamarine;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+div.moduletable h3
+{
+	text-align: center;
+	font-size: 13px;
+	font-style: normal;
+	color: #FFF;
+	height: 16px;
+	line-height: 18px;
+	background-image: url("../images/tlo_glowne_strony.jpg");
+	border-radius: 10px;
+	border: 1px solid aquamarine;
+	margin-top: 5px;
+	margin-left: 3px;
+	margin-right: 3px;
+
+}
+
+div.moduletable ul
+{
+	list-style-image: url('../images/ul_strzalka.png');
+	list-style-type: none;
+	list-style-position: inside;
+	text-align: left;
+	padding-left: 10px;
+	margin-top: 2px;
+	margin-right: 5px;
+	font-size: 12px;
+}
+
+div.moduletable ul li:hover,
+div.moduletable ul li.active
+{
+	background-image: url('../images/tlo.jpg');
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+}
+
+div.moduletable ul li a
+{
+	text-align: left;
+ 	text-indent: 12px;
+  	text-decoration: none;
+ 	line-height: 15px;
+  	color: black;
+  	margin-right: 10px;
+ 	margin-left: 10px;
+ 	margin:0;
+ 	padding:0;
+}
+
+div.moduletable ul li a:hover,
+div.moduletable ul li.active a
+{
+	text-align: left;
+ 	text-indent: 12px;
+  	text-decoration: underline;
+ 	line-height: 15px;
+  	color: #0c3241;
+  	margin-right: 10px;
+ 	margin-left: 10px;
+ 	margin:0;
+ 	padding:0;
+}
+
+div.moduletable ul.latestnews li:hover,
+div.moduletable ul.latestnews li.active
+{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/* ####################################################### */
+/* #####    -->>   Formularz logowania	             ##### */
+/* ####################################################### */
+
+div.moduletable form#login-form.form-inline
+{
+	margin-left: 4px;
+	margin-right: 4px;
+	font-style: italic;
+	font-size: 13px;
+	color: #0C3241;
+}
+
+
+div.moduletable form#login-form.form-inline div.userdata
+div#form-login-username.control-group div.controls
+div.input-prepend input#modlgn-username.input-small,
+div.moduletable form#login-form.form-inline div.userdata
+div#form-login-password.control-group div.controls
+div.input-prepend input#modlgn-passwd.input-small
+{
+	color: #555;
+	font-size: 13px;
+	margin-left: 4px;
+}
+
+div.moduletable form#login-form.form-inline div.userdata
+div#form-login-submit.control-group div.controls button.btn.btn-primary
+{
+	border: 1px solid aquamarine;
+	border-radius: 5px;
+	background-image: url("../images/tlo_glowne_strony.jpg");
+	color: white;
+
+}
+
+
+
+
+

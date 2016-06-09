@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "php.validate.executablePath": "C:/Program Files (x86)/PHP/v5.6/php.exe",
+
+    "composer.executablePath": "C:/ProgramData/ComposerSetup/Bin/composer.bat",
+
+    "bookmarks.saveBookmarksBetweenSessions": true,
+    "bookmarks.useStickyBookmarks": true,
+    "git.path": "C:/Program Files/Git/cmd/git-gui.exe"
+}

@@ -1,0 +1,559 @@
+/* ####################################################### */
+
+
+/* #####    -->>    artykuły wyróżnione		         ##### */
+
+
+/* ####################################################### */
+
+div.blog-featured {
+    position: relative;
+    font-family: Verdana;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    background-image: url('../images/tlo.jpg');
+    height: auto;
+    float: left;
+}
+
+div.blog-featured h2 a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    color: #000;
+    height: 19px;
+    line-height: 14px;
+    margin-top: 2px;
+    width: 99%;
+}
+
+div.blog-featured h2 a:hover {
+    color: #444;
+}
+
+div.blog-featured .caption {
+    border-radius: 10px;
+}
+
+div.blog-featured p {
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.blog-featured .leading-0,
+div.blog-featured .leading-1 {
+    width: 340px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+div.blog-featured .leading-0 .img_caption,
+div.blog-featured .leading-1 .img_caption {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.blog-featured .items-row {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.blog-featured .item {
+    width: 220px;
+    position: relative;
+    float: left;
+    margin-left: 7px;
+    margin-right: auto;
+}
+
+div.blog-featured .item h2 a {
+    font-size: 11px;
+    height: 13px;
+    line-height: 13px;
+}
+
+div.blog-featured .item .caption {
+    width: 210px;
+}
+
+div.blog-featured .items-more {
+    clear: both;
+    border-top: 1px solid #555555;
+    margin: 1px;
+    width: 99%;
+}
+
+div.blog-featured .items-more ol {
+    text-align: left;
+    font-size: 12px;
+}
+
+.blog-featured .items-more ol li a {
+    color: #0c3241;
+    text-decoration: none;
+}
+
+.blog-featured .items-more ol li a:hover {
+    color: #0c3241;
+    text-decoration: underline;
+}
+
+p.readmore a {
+    border: 1px solid aquamarine;
+    background-image: url("../images/tlo_glowne_strony.jpg");
+    margin: 4px;
+    padding: 4px;
+    color: #FFF;
+    text-decoration: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+p.readmore a:hover {
+    border: 2px solid #00ff00;
+    background-image: url("../images/tlo_glowne_strony.jpg");
+    margin: 4px;
+    padding: 4px;
+    color: #00ff00;
+    text-decoration: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* ####################################################### */
+
+
+/* #####    -->>    jeden artykuł  			         ##### */
+
+
+/* ####################################################### */
+
+div.item-page {
+    font-size: 13px;
+    text-align: center;
+}
+
+div.item-page .page-header {}
+
+div.item-page .page-header h2 {
+    width: 97%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    background-image: url("../images/tlo_glowne_strony.jpg");
+    color: #FFF;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+div.item-page .page-header h2 a,
+div.item-page .page-header h2 a:hover {
+    color: #d0e2e6;
+}
+
+div.img_caption.none {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.item-page p {
+    text-align: justify;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 13px;
+    color: #444444;
+}
+
+.item-page p a {
+    font-style: italic;
+    color: #559999;
+}
+
+div.img_caption.none p.img_caption {
+    font-size: 11px;
+    color: #0000a0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+dl.article-info.muted {
+    text-align: left;
+    border: 1px solid #777;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+dl.article-info {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+dl.article-info dt {
+    color: #555;
+    margin-left: 5px;
+}
+
+dl.article-info dd {
+    font-size: 13px;
+    color: #444;
+}
+
+dl.article-info dd a {
+    font-size: 13px;
+    color: #ff0000;
+    text-decoration: none;
+}
+
+dl.article-info dd a:hover {
+    font-size: 13px;
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+div.item-page ul.pager.pagenav {
+    list-style: none;
+    padding: 0;
+}
+
+div.item-page ul.pager.pagenav li {
+    list-style: none;
+    display: inline;
+}
+
+div.item-page ul.pager.pagenav li a,
+div.item-page ul.pager.pagenav li a:hover {
+    color: #555555;
+    padding: 3px;
+}
+
+
+/* ####################################################### */
+
+
+/* #####    -->>    Lista art. z tagiem		         ##### */
+
+
+/* ####################################################### */
+
+div.tag-category {}
+
+div.tag-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+div.tag-category ul li {
+    margin-top: 2px;
+}
+
+div.tag-category ul.category.list-striped li h3 {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+div.tag-category ul.category.list-striped li h3 a {
+    text-decoration: none;
+    color: #555555;
+}
+
+div.tag-category ul.category.list-striped li h3 a:hover {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+
+/* ####################################################### */
+
+
+/* #####    -->>    Lista kategorii 		         ##### */
+
+
+/* ####################################################### */
+
+div.blog {}
+
+div.blog h2 {
+    width: 97%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    background-image: url("../images/tlo_glowne_strony.jpg");
+    color: #FFF;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+div.blog p {
+    font-size: 13px;
+    color: #555;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.blog div.cat-children {}
+
+div.blog div.cat-children h3 {
+    width: 75%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    background-color: #c8c8c8;
+    line-height: 16px;
+}
+
+div.blog div.cat-children h3 a {
+    color: #555;
+}
+
+div.blog div.cat-children h3 a:hover {
+    color: #222;
+}
+
+
+/* ####################################################### */
+
+
+/* #####    -->>    Lista kategorii 		         ##### */
+
+
+/* ####################################################### */
+
+div.category-list {
+    font-size: 13px;
+}
+
+div.category-list div div.content-category {
+    margin: 5px;
+}
+
+div.category-list div div.content-category h2 {
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    color: #FFF;
+    height: 18px;
+    line-height: 18px;
+    background-image: url("../images/tlo_glowne_strony.jpg");
+    border: 1px solid aquamarine;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 2px;
+}
+
+div.category-list div div.content-category div.category-desc {
+    margin: 5px;
+    text-align: justify;
+}
+
+div.category-list div div.content-category div.category-desc a {
+    color: #800000;
+    text-decoration: none;
+}
+
+div.category-list div div.content-category div.cat-children div h3.page-header.item-title {
+    width: 75%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    background-color: #c8c8c8;
+    line-height: 16px;
+}
+
+div.category-list div div.content-category div.cat-children div h3.page-header.item-title a {
+    color: #555;
+}
+
+div.category-list div div.content-category div.cat-children div h3.page-header.item-title a:hover {
+    color: #222;
+}
+
+table.category {
+    width: 90%;
+    opacity: 0, 5;
+    margin: 5px auto;
+}
+
+table.category thead a {
+    font-size: 12px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+    color: #666;
+}
+
+table.category td.list-title {
+    text-align: left;
+}
+
+table.category td.list-hits {
+    text-align: right;
+    margin-right: 10px;
+}
+
+table.category td a {
+    color: #444;
+    text-decoration: none;
+}
+
+table.category td a:hover {
+    color: #400040;
+    text-decoration: underline;
+}
+
+
+/* ####################################################### */
+
+
+/* #####    -->>    Wyniki wyszukiwania		         ##### */
+
+
+/* ####################################################### */
+
+div.search h1.page-title {
+    width: 75%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    border: 1px solid aquamarine;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url("../images/tlo_glowne_strony.jpg");
+    color: #FFF;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+div.btn-toolbar {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.btn-toolbar input.inputbox {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+div.btn-toolbar button.btn.hasTooltip {
+    width: 50px;
+    height: 25px;
+    margin-top: 5px;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+}
+
+div.search div.searchintro {
+    font-size: 15px;
+    font-style: italic;
+}
+
+div.search form#searchForm fieldset.phrases {
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+div.search form#searchForm fieldset.phrases legend {
+    font-style: italic;
+    text-align: left;
+}
+
+div.search form#searchForm fieldset.only {
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+div.search form#searchForm fieldset.only legend {
+    font-style: italic;
+    text-align: left;
+}
+
+div.search form#searchForm div.form-limit {
+    margin-top: 10px;
+}
+
+div.search form#searchForm div.form-limit label {
+    font-size: 13px;
+    font-style: italic;
+}
+
+div.search dl.search-results {
+    text-align: justify;
+    margin-right: 7px;
+}
+
+div.search dl.search-results dt {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+div.search dl.search-results dt a {
+    color: #555;
+    font-size: 15px;
+}
+
+div.search dl.search-results dd.result-category {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 4px;
+    background-color: #dfdfdf;
+}
+
+div.search dl.search-results dd.result-text {
+    font-size: 13px;
+    color: #444;
+}
+
+div.search dl.search-results dd.result-text span.highlight {
+    color: red;
+}
+
+div.search dl.search-results dd.result-created {
+    font-size: 12px;
+    color: #666;
+}

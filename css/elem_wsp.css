@@ -1,0 +1,178 @@
+
+div.pagination
+		{
+			position: relative;
+			width: 99%;
+			float: left;
+			border-top: 1px solid #555555;
+        	margin: 1px 1px 1px 1px;
+        	text-align: center;
+		}
+
+div.pagination p
+			{
+				font-style: italic;
+				text-align: center;
+				font-size: 12px;
+				font-weight: 700;
+				color: #555555;
+			}
+
+div.pagination ul
+			{
+				list-style: none;
+				padding: 0;
+			}
+
+div.pagination ul li
+			{
+				list-style: none;
+				display: inline;
+			}
+
+	ul li span.pagenav,
+	ul li a.pagenav,
+	ul li a.pagenav:hover
+		{
+			color: #555555;
+			padding: 3px;
+			font-size: 12px;
+			font-family: verdana;
+		}
+/*  TAGI */
+ul.tags
+{
+	margin: 10px;
+	text-align: center;
+	list-style-type: none;
+	list-style-position: outside;
+	
+}
+
+ul.tags li
+{
+	display: inline;
+	margin: 5px;
+	text-align: center;
+	border: 1px solid #800040;
+	border-radius: 5px;
+	background-color: #555;
+}
+
+ul.tags a
+{
+	margin: 4px;
+	text-align: center;
+	text-decoration: none;
+	color: white;	 
+}
+
+/* FORMULARZ - WYSZUKIWANIE W LISTACH */
+form#adminForm.form-inline fieldset.filters.btn-toolbar
+{
+	width: 80%;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form#adminForm.form-inline fieldset.filters.btn-toolbar div.btn-group label.filter-search-lbl.element-invisible,
+form#adminForm.form-inline fieldset.filters.btn-toolbar div.btn-group.pull-right label.element-invisible
+{
+	font-size: 12px;
+}
+
+/* Tooltips */
+div.tooltip {
+	float: left;
+	background: #e4e4e7;
+	border: 1px solid #804040;
+	padding: 5px;
+	max-width: 200px;
+	z-index:13000;
+}
+
+div.tooltip h4 {
+	padding: 0;
+	margin: 0;
+	font-size: 80%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+div.tooltip p {
+	font-size: 75%;
+	margin: 0;
+}
+
+
+/* ####################################################### */
+/* #####    -->>    Pasek wyszukiwania		         ##### */
+/* ####################################################### */
+
+#gorna-belka div.search
+{
+	width: 400px;
+	margin-top: 10px;
+	float: right;
+}
+
+#gorna-belka div.search label
+{
+	font-size: 13px;
+	font-style: italic;
+	color: #000;
+}
+
+#gorna-belka div.search .inputbox
+{
+	border: 1px solid aquamarine;
+	border-radius: 5px;
+	background: none repeat scroll 0% 0% #028796;
+	color: white;
+}
+
+#gorna-belka div.search button.button
+{
+	border: 1px solid aquamarine;
+	border-radius: 5px;
+	background-image: url("../images/tlo_glowne_strony.jpg");
+	color: white;
+}
+
+/* ####################################################### */
+/* #####    -->>    Statystyki				         ##### */
+/* ####################################################### */
+
+div.moduletable dl.stats-module
+{
+	font-style: normal;
+	font-size: 13px;
+	margin-left: 4px;
+}
+
+div.moduletable dl.stats-module dt
+{
+	padding-left: 3px;
+	font-style: italic;
+}
+
+div.moduletable dl.stats-module dd
+{
+	padding-left: 6px;
+	text-align: right;
+	margin-right: 15px;
+	margin-left: 0px;
+	color: #0C3241;
+}
+
+
+
+
+
+
+
+

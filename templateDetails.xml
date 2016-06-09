@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+
+
+<extension version="3" type="template" client="site">
+      <name>Szablon Akwa-Hobby.pl</name>
+      <creationDate>11.06.2014 - </creationDate>
+      <author>Mateusz Stanek</author>
+      <authorEmail>mateusz.stanek.priv@gmail.com</authorEmail>
+      <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+      <version>3.1.0</version>
+      
+      <files>
+	<folder>css</folder>
+	<folder>html</folder>
+	<folder>images</folder>
+	<filename>index.html</filename>
+	<filename>templateDetails.xml</filename>
+      </files>
+      
+      
+      <positions>
+	    <position>gorna-belka</position>
+	    <position>menu-gorne</position>
+	    <position>box-pod-menu-calosc</position>
+	    <position>box-gora-lewa-strona</position>
+	    <position>box-gora-srodek</position>
+	    <position>box-gora-prawa-strona</position>
+	    <position>lewa-str-menu</position>
+	    <position>lewa-str-box</position>
+	    <position>lewa-str-ank</position>
+	    <position>srodek</position>
+	    <position>prawa-str-menu</position>
+	    <position>prawa-str-log</position>
+	    <position>prawa-str-news</position>
+	    <position>box-dol-caly</position>
+	    <position>box-dol-lewa-strona</position>
+	    <position>box-dol-srodek</position>
+	    <position>box-dol-prawa-strona</position>
+	    <position>stopka</position>
+	    <position>debug</position>
+	</positions>
+</extension>
