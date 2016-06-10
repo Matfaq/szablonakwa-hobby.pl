@@ -6,5 +6,9 @@
 
     "bookmarks.saveBookmarksBetweenSessions": true,
     "bookmarks.useStickyBookmarks": true,
-    "git.path": "C:/Program Files/Git/cmd/git-gui.exe"
+    "git.autofetch": false,
+    "git.push": true,
+    "git.path": "C:/Program Files/Git/cmd/git-gui.exe",
+    "git remote https://github.com/Matfaq/szablonakwa-hobby.pl.git",
+    "git push -u origin master"
 }
